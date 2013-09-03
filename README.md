@@ -12,14 +12,14 @@ codeigniter-facebook-library
   Skype:	  	systemonlinesoftware<br>
   Location:		Guadalajara Jalisco Mexíco<br><br>
  
-  Facebook
+  Facebook<br>
 */
 
 
 Libreria codeigniter usando la API de Facebook
 
-
 Uso 
+============================
 
 1.- Copiar y pegar en application/library
 
