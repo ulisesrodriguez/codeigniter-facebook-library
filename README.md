@@ -57,8 +57,8 @@ Uso
         
         
           /*
-            Agregar vista y copiar el código para el boton de login.<br>
-            <a href="https://developers.facebook.com/docs/reference/plugins/login/">Aquí</a>
+            Agregar vista y copiar el código para el boton de login.
+            https://developers.facebook.com/docs/reference/plugins/login/
           */
           
         
