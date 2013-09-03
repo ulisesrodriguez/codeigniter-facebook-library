@@ -3,14 +3,14 @@ codeigniter-facebook-library
 
 /*
 
-  Author	   	Ulises Rodríguez
-  Site:		  	http://www.ulisesrodriguez.com	
-  Twitter:		https://twitter.com/#!/isc_ulises
-  Facebook:		http://www.facebook.com/ISC.Ulises
-  Github:	  	https://github.com/ulisesrodriguez
-  Email:	  	ing.ulisesrodriguez@gmail.com
-  Skype:	  	systemonlinesoftware
-  Location:		Guadalajara Jalisco Mexíco
+  Author	   	Ulises Rodríguez<br>
+  Site:		  	http://www.ulisesrodriguez.com	<br>
+  Twitter:		https://twitter.com/#!/isc_ulises<br>
+  Facebook:		http://www.facebook.com/ISC.Ulises<br>
+  Github:	  	https://github.com/ulisesrodriguez<br>
+  Email:	  	ing.ulisesrodriguez@gmail.com<br>
+  Skype:	  	systemonlinesoftware<br>
+  Location:		Guadalajara Jalisco Mexíco<br><br>
  
   Facebook
 */
@@ -46,14 +46,21 @@ Uso
 		      
 		      print_r( $response );
 		      
+		      // Incluir session
+		      $this->load->library( 'session' );
+		      
+		      // Guardamos los datos en una sessión
+		      $this->session->user_data( $response );
+		      
 		      exit;
-		    }
+	}
         
         
           /*
-            Agregar vista y copiar el código para el boton de login.
+            Agregar vista y copiar el código para el boton de login.<br>
+            <a href="https://developers.facebook.com/docs/reference/plugins/login/">Aquí</a>
           */
-        
+          
         
       }
       
